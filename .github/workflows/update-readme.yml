@@ -1,0 +1,15 @@
+name: Update README Activity
+
+on:
+  schedule:
+    - cron: '0 */6 * * *' # Wuxuu shaqaynayaa 6 saacadood walba
+  workflow_dispatch: # Wuxuu kuu ogolaanayaa inaad gacantaada ku shiddo mar kasta
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: jamesgeorge007/github-activity-readme@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
