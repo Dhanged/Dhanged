@@ -18,4 +18,4 @@ I am a Computer Science student, and AI/IoT Specialist. Alongside my technical e
 
 ---
 ### 📈 GitHub Stats
-![Abdi's GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Dhanged&theme=dark)
+![Abdi's GitHub stats](https://github-readme-stats.vercel.app/api?username=Dhanged&show_icons=true&theme=radial)
